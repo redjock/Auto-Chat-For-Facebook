@@ -4,7 +4,7 @@ from selenium import webdriver
 
 from selenium.webdriver.common.keys import Keys
 
-chromedriver="D:\\seleniumchromedriver\chromedriver.exe"
+chromedriver="insert path to selenium chrome driver "
 
 browser = webdriver.Chrome(chromedriver)
 
@@ -16,11 +16,11 @@ elem = browser.find_element_by_name('email')
 
 time.sleep(1)
 
-elem.send_keys('gifibos@yhg.biz')
+elem.send_keys('insert your faebook username ')
 
 elem = browser.find_element_by_name('pass')
 
-elem.send_keys('passme123')
+elem.send_keys('insert your facebook password')
 
 login_attempt=browser.find_element_by_xpath("//*[@type='submit']")
 
