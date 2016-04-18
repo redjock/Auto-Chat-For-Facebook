@@ -16,7 +16,7 @@ Requirement :
   1.Python 2.7 or greater
   2.Selenium Chrome Web Driver
   3.Chrome Browser  
-  
+<br>  
 How to Run :
   1.In code change email and password to your faebook login credentials
   2.Change path to your selenium chrome web driver file   
